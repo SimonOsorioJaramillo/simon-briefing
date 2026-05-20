@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pre-Market Briefing — Simon Osorio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #fafaf7;
+    --ink: #1a1a1a;
+    --muted: #6b6b6b;
+    --line: #e5e3dc;
+    --accent: #0f2c4d;
+    --watch: #6b6b6b;
+    --consider: #0f2c4d;
+    --avoid: #a83232;
+    --gold: #B08D57;
+    --risk-low: #2f6b3d;
+    --risk-medium: #b07a1f;
+    --risk-high: #a83232;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 24px 96px;
+  }
+  header {
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 24px;
+    margin-bottom: 40px;
+  }
+  .eyebrow {
+    font-size: 12px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+  h1 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 1.15;
+    margin: 0 0 8px;
+    letter-spacing: -0.01em;
+  }
+  .date {
+    font-size: 14px;
+    color: var(--muted);
+  }
+  h2 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 500;
+    font-size: 22px;
+    margin: 48px 0 16px;
+    letter-spacing: -0.005em;
+  }
+  section { margin-bottom: 8px; }
+  .macro-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .macro-list li {
+    padding: 12px 0;
+    border-bottom: 1px solid var(--line);
+    display: flex;
+    gap: 12px;
+  }
+  .macro-list li:last-child { border-bottom: none; }
+  .macro-list .bullet {
+    color: var(--accent);
+    font-weight: 600;
+    flex-shrink: 0;
+  }
+  .macro-list .source {
+    display: block;
+    font-size: 12px;
+    color: var(--muted);
+    margin-top: 4px;
+  }
+  .idea {
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 20px;
+    margin-bottom: 16px;
+    background: white;
+  }
+  .idea-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 8px;
+    flex-wrap: wrap;
+  }
+  .idea-title {
+    font-weight: 600;
+    font-size: 17px;
+  }
+  .idea-title .ticker {
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    background: #f0eee7;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-right: 8px;
+  }
+  .idea-body p {
+    margin: 8px 0;
+    color: #2a2a2a;
+  }
+  .idea-meta {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 6px 16px;
+    font-size: 14px;
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid var(--line);
+  }
+  .idea-meta dt {
+    color: var(--muted);
+    font-weight: 500;
+  }
+  .idea-meta dd { margin: 0; }
+  .badge {
+    display: inline-block;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 3px 9px;
+    border-radius: 999px;
+    font-weight: 600;
+  }
+  .badge-watch { background: #ececec; color: var(--watch); }
+  .badge-consider { background: #e3ebf5; color: var(--consider); }
+  .badge-avoid { background: #f5e0e0; color: var(--avoid); }
+  .risk-low { color: var(--risk-low); font-weight: 500; }
+  .risk-medium { color: var(--risk-medium); font-weight: 500; }
+  .risk-high { color: var(--risk-high); font-weight: 500; }
+  .caution {
+    border-left: 3px solid var(--avoid);
+    padding: 4px 0 4px 16px;
+    background: transparent;
+  }
+  .caution-title {
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  .top-picks-section h2 {
+    color: var(--accent);
+  }
+  .picks-disclaimer {
+    font-size: 12px;
+    color: var(--muted);
+    background: #f4f1e8;
+    border-left: 3px solid var(--gold);
+    padding: 10px 14px;
+    margin-bottom: 16px;
+    line-height: 1.5;
+  }
+  .pick {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 16px;
+    padding: 18px 20px;
+    margin-bottom: 12px;
+    background: white;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    border-left: 4px solid var(--gold);
+  }
+  .pick-rank {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--gold);
+    line-height: 1;
+    align-self: start;
+  }
+  .pick-body { min-width: 0; }
+  .pick-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 6px;
+    flex-wrap: wrap;
+  }
+  .pick-id { min-width: 0; }
+  .pick-ticker-lg {
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--accent);
+    letter-spacing: 0.02em;
+    line-height: 1.1;
+  }
+  .pick-name {
+    font-size: 14px;
+    color: var(--muted);
+    margin-top: 2px;
+    line-height: 1.3;
+  }
+  .pick-reason { margin: 6px 0; }
+  .pick-role {
+    font-size: 13px;
+    color: var(--muted);
+    margin-top: 8px;
+  }
+  .pick-role strong {
+    color: var(--ink);
+    font-weight: 500;
+  }
+  footer {
+    margin-top: 64px;
+    padding-top: 24px;
+    border-top: 1px solid var(--line);
+    font-size: 12px;
+    color: var(--muted);
+    line-height: 1.5;
+  }
+  .loading, .error {
+    padding: 24px;
+    text-align: center;
+    color: var(--muted);
+  }
+  .error { color: var(--avoid); }
+  @media (max-width: 600px) {
+    .container { padding: 32px 20px 64px; }
+    h1 { font-size: 30px; }
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="eyebrow">Pre-Market Briefing</div>
+      <h1>Mercados al amanecer</h1>
+      <div class="date" id="date">—</div>
+    </header>
+
+    <div id="content">
+      <div class="loading">Cargando briefing del día…</div>
+    </div>
+
+    <footer>
+      <p><strong>Disclaimer.</strong> Este sitio es opinión personal de Simon Osorio con fines educativos y de seguimiento propio. No constituye asesoría financiera, recomendación de inversión, oferta de compra o venta de valores. Los mercados implican riesgo de pérdida de capital. Consulte a un asesor licenciado antes de tomar decisiones de inversión. Datos sujetos a la frescura indicada en cada fuente; verificar antes de operar.</p>
+      <p style="margin-top:12px">Última actualización: <span id="updated">—</span></p>
+    </footer>
+  </div>
+  <script src="data/latest.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
