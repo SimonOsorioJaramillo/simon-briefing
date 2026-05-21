@@ -1,78 +1,78 @@
 window.BRIEFING = {
-  "date": "2026-05-20",
-  "generated_at": "2026-05-20T20:41:19-04:00",
+  "date": "2026-05-21",
+  "generated_at": "2026-05-21T11:43:30-04:00",
   "macro": [
     {
-      "point": "Fed funds rate en 3.50–3.75% (tercer hold consecutivo, reunión de abril 2026; voto 8-4, mayor disidencia desde octubre 1992). Curva larga bajo presión: 10Y UST en 4.67% (máximos de 16 meses), 30Y en 5.19%, 3M T-Bill en 3.66%. Evento clave hoy: minutas del FOMC a las 2:00 PM ET — última reunión presidida por Powell; primer insumo formal antes del mandato de Kevin Warsh y la reunión del 16–17 de junio.",
-      "source": "TradingEconomics (20 may 2026), FedRateCalc, Kraken Blog (20 may 2026)"
+      "point": "Yields largos en zona de alerta máxima: el 10Y Treasury cerró el 20-may en 4.65% (tras tocar 4.70%, máximo de 16 meses, el 19-may) y el 30Y alcanzó 5.18% (FRED, 19-may), niveles no vistos en ~18 años. El T-Bill a 3M se sitúa en 3.66%. La Fed mantiene el fed funds en 3.50%–3.75% (decisión 29-abr). El mercado ya no descuenta recortes en 2026 y asigna ~39% de probabilidad a un alza adicional antes de fin de año.",
+      "source": "TradingEconomics / FRED / U.S. News – 20 may 2026"
     },
     {
-      "point": "CPI abril 2026: +3.8% interanual (+0.6% MoM SA), impulsado por gasolina y vivienda; core CPI +2.8% YoY (+0.4% MoM). PPI abril 2026: +6.0% interanual (+1.4% MoM SA) — mayor avance anual desde diciembre 2022, con energía como principal detonante. Ambos indicadores apuntan a un shock inflacionario estructural ligado a la crisis del Estrecho de Hormuz.",
-      "source": "BLS CPI Summary abril 2026, BLS PPI Summary abril 2026, CNBC (13 may 2026)"
+      "point": "Inflación persistente impulsada por shock energético: CPI abril +3.8% i.a. (máximo desde may 2023) con +0.6% m/m; núcleo +2.8% i.a. El PPI abril marcó +6.0% i.a. (máximo desde dic 2022) con energía como principal motor. Las minutas FOMC publicadas ayer señalan que 'algunos' miembros consideran subir tasas si la inflación no cede, virando el tono a hawkish. Kevin Warsh, nuevo presidente de la Fed (confirmado el 13-may), preside su primer meeting el 16-17 jun.",
+      "source": "BLS / CNBC (12-13 may 2026) / Axios / U.S. News (20 may 2026)"
     },
     {
-      "point": "Calendario del día: (1) FOMC minutes 2:00 PM ET — mercado vigilará señales de giro hawkish bajo era Warsh y posible eliminación del sesgo acomodaticio. (2) Earnings pre-market: TGT Q1 EPS $1.71 vs. $1.35 est. (+26.7% beat); LOW y TJX también superan estimados y elevan guía anual. Sector retail confirma resiliencia del consumidor pese a inflación elevada.",
-      "source": "TipRanks Earnings Calendar (20 may 2026), Public.com TGT, HeyGoTrade (20 may 2026)"
+      "point": "Calendario del día (21-may): Initial Jobless Claims semana al 16-may: 209K (prev 212K, consenso 210K) — mercado laboral sólido, sin señales de deterioro. Earnings clave: WMT Q1 ventas $175.7B (+6.1% i.a.), EPS $0.66 en línea, pero guidance Q2 ligeramente por debajo del consenso; Deere Q2 EPS $6.55 (mixto). NVDA batió estimados post-cierre del 20-may (EPS $1.87 vs $1.78 est., ingresos $81.6B +85% i.a.) y cotiza al alza en pre-market.",
+      "source": "TradingEconomics / Benzinga / StockTitan / Kiplinger – 21 may 2026"
     },
     {
-      "point": "Geopolítica/Energía: Estrecho de Hormuz efectivamente cerrado al tráfico comercial desde el 4 de marzo 2026 (conflicto EE.UU.–Israel vs. Irán). Trump pausó la Operación Project Freedom el 6 de mayo; hoy amenaza retomar ataques 'en 2–3 días' si Irán no acuerda paz. Presión estructural sostenida en petróleo, gas y fletes marítimos con impacto directo en PPI y perspectivas de inflación global.",
-      "source": "Congress.gov CRS (2026), Wikipedia '2026 Strait of Hormuz crisis', TradingEconomics (20 may 2026)"
+      "point": "Divisas LatAm: USD/COP abre en ~3,720 (TRM oficial 21-may: 3,730.49), con el peso colombiano apreciándose −2.0% en la semana y acumulando −5.3% de caída del dólar en el año — tendencia de fortaleza del COP que encarece activos en USD para inversionistas con base en Colombia. USD/MXN: 17.28 — el peso mexicano se mantiene estable dentro del rango de las últimas semanas.",
+      "source": "El Nuevo Siglo Colombia / El Comercio Perú – 21 may 2026"
     },
     {
-      "point": "Divisas LatAm: USD/COP ~3,796.78 (19 may); peso colombiano deteriorado 5.67% en el último mes pese a estar apreciado 9.48% interanual — refleja presión regional por alza de yields globales y shock energético. USD/MXN ~17.41 (20 may); peso mexicano cedió 0.81% el martes 19. Volatilidad en ambas monedas aconseja cautela en posiciones regionales de corto plazo.",
-      "source": "Dolar-Colombia.com (19 may 2026), Investing.com MX (20 may 2026)"
+      "point": "Geopolítica y energía: el WTI cerró ayer en $98.26 (−5.66%) y Brent en $105.02 (−5.63%) ante esperanzas de acuerdo con Irán, pero Trump advirtió posibles nuevos ataques en '2-3 días' si no hay deal nuclear. El Estrecho de Ormuz sigue efectivamente cerrado y el contexto de tensión mantiene una prima de riesgo geopolítico alta sobre el petróleo y la inflación global.",
+      "source": "CNBC / TradingEconomics / CNN Business – 19-21 may 2026"
     }
   ],
   "watchlist": [
     {
       "ticker": "SGOV",
       "name": "iShares 0-3 Month Treasury Bond ETF",
-      "thesis": "Parking de liquidez de máxima calidad con rendimiento real positivo (30-day SEC yield 3.54%, NAV ~$100.58). Duración prácticamente cero: nula exposición a riesgo de tasa en un entorno donde el 30Y toca 5.19% y el mercado espera posible giro hawkish en las minutas del FOMC de hoy. Instrumento óptimo para preservar capital y liquidez mientras dura la incertidumbre geopolítica e inflacionaria.",
+      "thesis": "Con el Fed funds en 3.50–3.75% y minutas FOMC señalando posible alza, el tramo ultra-corto de la curva ofrece el mejor retorno ajustado al riesgo del universo: yield 30d SEC de 3.53%, NAV estable ~$100.58, duración prácticamente cero. Supera en términos risk-adjusted a bonos de mayor plazo bajo cualquier escenario hawkish.",
       "risk": "Bajo",
-      "catalyst": "FOMC minutes 2 PM ET: cualquier tono hawkish refuerza la lógica de permanecer en tramos ultracortos. Sin downside de precio por construcción del fondo; NAV estable por diseño.",
-      "level": "NAV ~$100.58 (19 may); 52-sem rango $100.27–$100.73. Estable por estructura.",
+      "catalyst": "Minutas Fed hawkish del 20-may refuerzan el atractivo relativo frente a renta fija de mayor duración. Liquidez inmediata disponible para redeployment si hay shock geopolítico o corrección de mercado.",
+      "level": "NAV: $100.5852 | 30d SEC yield: 3.53% | 12m trailing yield: 3.91%",
+      "action": "Consider"
+    },
+    {
+      "ticker": "BIL",
+      "name": "SPDR Bloomberg 1-3 Month T-Bill ETF",
+      "thesis": "Alternativa directa a SGOV con exposición exclusiva al segmento 1-3M de T-Bills. Precio estable en $91.55, yield trailing ~4.01% (Yahoo Finance), ratio de gastos 0.14%. Instrumento de primer nivel para parking de liquidez mientras el entorno de tasas se mantiene elevado o en alza.",
+      "risk": "Bajo",
+      "catalyst": "El escenario 'higher for longer' o de nuevo hike confirmado por minutas Fed hace que este activo supere a bonos intermedios y largos en retorno total ajustado al riesgo. Sin riesgo de duración ni de crédito.",
+      "level": "Precio: $91.55 | Yield trailing: ~4.01% | 52-sem: $91.26–$91.78",
       "action": "Consider"
     },
     {
       "ticker": "SCHD",
-      "name": "Schwab US Dividend Equity ETF",
-      "thesis": "Dividend equity con yield ~3.29% y YTD +15% (casi el doble que SPY). Exposición a valor y empresas de dividendos crecientes — perfil favorecido en entornos de inflación elevada y rotación desde crecimiento. 30 de sus constituyentes superan el YTD del S&P 500. Perfil defensivo dentro de renta variable.",
+      "name": "Schwab U.S. Dividend Equity ETF",
+      "thesis": "SCHD acumula +18.08% YTD (categoría Large Value), con dividend yield de 3.29% y sesgo hacia consumo defensivo y energía — sectores relativamente beneficiados en entornos inflacionarios. La rotación desde growth hacia value/dividends puede continuar si la Fed sube tasas. Cierre May 19: $32.10.",
       "risk": "Medio",
-      "catalyst": "Earnings retail de hoy (TGT +26.7% beat, LOW y TJX elevan guía) respaldan los componentes valor/consumo del fondo. Narrativa de rotación value-defensiva reforzada por yields altos y PPI elevado.",
-      "level": "~$31.63 (19 may); soporte técnico ~$31.20. Vigilar consolidación sobre $31.60 tras apertura.",
-      "action": "Watch"
+      "catalyst": "Resultado de WMT en línea con expectativas consolida el perfil defensivo del fondo. La posibilidad de alza de tasas favorece la rotación value y el perfil high-dividend quality frente a growth de alta valoración.",
+      "level": "Precio: ~$32.10–32.13 | Yield: 3.29% | YTD: +18.08%",
+      "action": "Consider"
     },
     {
       "ticker": "VTI",
       "name": "Vanguard Total Stock Market ETF",
-      "thesis": "Núcleo de equity americano con diversificación total (grandes, medianas y pequeñas caps, P/E ~28.9x). SPX recupera esta mañana tras caída de -0.67% ayer, con catalizador de retail beats. Para horizonte de largo plazo, acumulación gradual en el rango actual es coherente con fundamentos del ciclo siempre que yields no continúen escalando.",
+      "thesis": "El beat de NVDA post-cierre y el alivio parcial en el precio del petróleo impulsan los futuros esta mañana (SPX +0.94% intraday a 7,423 vs cierre 7,432.97 del 20-may). VTI es el núcleo de largo plazo, pero el entorno de tasas largas elevadas (10Y 4.65%, 30Y 5.18%) y riesgo de hike presionan las valoraciones a múltiplos actuales. Solo para quienes ya tienen posición establecida.",
       "risk": "Medio",
-      "catalyst": "Apertura alcista del SPX (abrió $7,369.19 vs. cierre $7,353.61); retail beats (TGT, LOW, TJX) apoyan el sentimiento. Riesgo de tarde: minutas FOMC hawkish pueden revertir la ganancia.",
-      "level": "~$361.50 en apertura (19 may cierre $360.06). Soporte clave $355–$357.",
+      "catalyst": "NVDA Q1 beat soporta el componente tech del índice. Cierre previo: $364.19. Techo potencial si minutas hawkish elevan la aversión al riesgo en la segunda mitad de la sesión.",
+      "level": "Cierre 20-may: $364.19 | Soporte clave: $355–360 | P/E: ~28.9x",
       "action": "Watch"
     },
     {
-      "ticker": "TLT",
-      "name": "iShares 20+ Year Treasury Bond ETF",
-      "thesis": "Con el 30Y en 5.19% y TLT cotizando ~$83.32 (próximo a mínimo de 52 semanas $82.98), existe valor teórico de largo plazo, pero el contexto inmediato es hostil: PPI +6% YoY, shock energético persistente y posible giro hawkish de la Fed bajo Warsh. 30-day SEC yield 5.06%; YTD -3.42%. No es el momento para acumular duration larga.",
+      "ticker": "VNQ",
+      "name": "Vanguard Real Estate ETF",
+      "thesis": "Con el 10Y en 4.65% y el 30Y en 5.18% (máximos de ~18 años), el sector REIT enfrenta presión directa sobre valuaciones y costo de refinanciación de deuda. El yield de VNQ (~3.66%) no compensa el riesgo de duración frente a un T-Bill al 3.66%–4.01% sin riesgo de crédito ni precio. Precio referencia ~$96.69 (May 11).",
       "risk": "Alto",
-      "catalyst": "FOMC minutes 2 PM ET: si confirman debate sobre subidas de tasas o eliminación del sesgo acomodaticio (4 disidentes en reunión de abril), TLT puede ceder hacia nuevos mínimos anuales.",
-      "level": "$83.32 spot (20 may); soporte crítico $82.98 (mínimo 52 sem); resistencia $85.50",
+      "catalyst": "Posible nuevo hike de la Fed en jun 2026: escenario directamente negativo para REITs. Sólo monitorear para reingreso oportunista si yields bajan materialmente por resolución del conflicto iraní.",
+      "level": "Precio ref: ~$96.69 | Resistencia: $100 | Yield: 3.66%",
       "action": "Avoid"
-    },
-    {
-      "ticker": "AGG",
-      "name": "iShares Core U.S. Aggregate Bond ETF",
-      "thesis": "Investment-grade bond market con yield 4.46% (30-day SEC) y duración ~6 años. YTD -0.63%. Menos vulnerable que TLT por menor sensibilidad a tasas largas, pero igualmente bajo presión. El spread AGG vs. SGOV (~80 bps) no compensa aún el riesgo de tasa en el entorno actual. Posición de watchlist pasiva — no acumular hasta claridad post-minutas.",
-      "risk": "Medio",
-      "catalyst": "FOMC minutes determinarán dirección de corto plazo. Si el spread AGG/SGOV se amplía materialmente, revisar entrada gradual.",
-      "level": "30-day SEC yield 4.46% (18 may). Vigilar spread vs. T-Bill 3M (3.66% → prima ~80 bps actual).",
-      "action": "Watch"
     }
   ],
   "caution": {
-    "summary": "No acumular duración larga hoy (TLT, TLH, EDV) — FOMC minutes potencialmente hawkish pueden hundir el extremo largo de la curva",
-    "detail": "Con PPI en +6.0% YoY (mayor desde diciembre 2022), CPI en +3.8% YoY, el Estrecho de Hormuz efectivamente cerrado y la reunión de abril 2026 que registró cuatro disidentes (sin precedente desde octubre 1992), las minutas de hoy a las 2:00 PM ET tienen alta probabilidad de revelar un FOMC más hawkish de lo actualmente descontado. Si el texto confirma debate activo sobre subidas de tasas o eliminación del lenguaje de sesgo acomodaticio, el 30Y puede continuar escalando desde 5.19%, generando pérdidas adicionales en TLT (YTD -3.42%, cerca de mínimo anual $82.98). Añadir exposición a bonos de muy larga duración antes de las minutas es un riesgo asimétrico desfavorable para el perfil bajo/medio de Osorio Capital. Mantener liquidez en SGOV/BIL hasta obtener claridad sobre el tono inaugural de la era Warsh en el FOMC del 16–17 de junio."
+    "summary": "No añadir duración larga en renta fija: TLT, AGG, BND bajo presión estructural por entorno hawkish.",
+    "detail": "El 30Y Treasury alcanzó 5.18% (FRED, 19-may), máximo de ~18 años, y las minutas FOMC publicadas el 20-may confirman que 'algunos' miembros consideran subir tasas si la inflación no cede (probabilidad de hike ~39% según futuros, según U.S. News). Un alza adicional de 25pbs sería directamente destructivo para ETFs de bonos de larga duración como TLT (~20 años de duration efectiva) y presionaría también a AGG y BND (~6 años). El diferencial de riesgo/retorno entre estacionar liquidez en SGOV/BIL y asumir duración es actualmente desfavorable: se paga retorno similar con riesgo de precio cero en el tramo corto vs. exposición material a pérdidas de capital en el largo. Adicionalmente, la geopolítica de Irán puede revertir el alivio del petróleo en cualquier momento, reavivando las expectativas inflacionarias y presionando aún más los yields largos. Evitar aumentar exposición a renta fija de plazo superior a 2 años hasta tener claridad post-FOMC del 16-17 jun."
   },
   "top_picks": [
     {
@@ -80,24 +80,24 @@ window.BRIEFING = {
       "ticker": "SGOV",
       "name": "iShares 0-3 Month Treasury Bond ETF",
       "action": "Consider",
-      "reason": "Instrumento óptimo para el contexto del día: FOMC minutes impredecibles a las 2 PM ET, PPI en +6.0% YoY y shock energético por Hormuz hacen del parking en T-bills el movimiento más conservador. Yield 3.54% (30-day SEC), NAV estable ~$100.58, riesgo de tasa prácticamente nulo. Ningún evento de hoy genera downside de precio. Relación riesgo/retorno claramente superior al cash ocioso.",
-      "role": "Parking de liquidez / gestión de cash defensivo"
+      "reason": "Con minutas FOMC hawkish y ~39% probabilidad de hike adicional, SGOV es el instrumento de menor riesgo del universo hoy: yield 3.53% (30d SEC), duración ~0, NAV $100.58 sin volatilidad relevante. Supera en retorno ajustado al riesgo a bonos intermedios y largos bajo cualquier escenario de política monetaria. Primero en la lista por certeza de preservación de capital en entorno de incertidumbre alta.",
+      "role": "Parking de liquidez / Reserva táctica"
     },
     {
       "rank": 2,
       "ticker": "SCHD",
-      "name": "Schwab US Dividend Equity ETF",
-      "action": "Watch",
-      "reason": "YTD +15% con yield 3.29% y rotación value-defensiva respaldada por retail beats de hoy (TGT +26.7% sobre estimados). Precio ~$31.63 cerca de soporte. Acumulación gradual justificada en correcciones hacia $31.20 si las minutas generan volatilidad esta tarde. Perfil consistente con el mandato de bajo/medio riesgo de Osorio Capital.",
-      "role": "Núcleo dividend / equity de calidad defensivo"
+      "name": "Schwab U.S. Dividend Equity ETF",
+      "action": "Consider",
+      "reason": "YTD +18.08%, yield 3.29%, sesgo defensivo a consumo/energía que actúa como cobertura inflacionaria parcial. El resultado de WMT en línea y la rotación value/dividends ante perspectivas de alza de tasas mantienen el tesis vigente. Precio ~$32.10, razonable dentro de universo bajo/medio riesgo para inversor con horizonte 12+ meses.",
+      "role": "Renta variable defensiva / Dividend growth acumulación"
     },
     {
       "rank": 3,
       "ticker": "VTI",
       "name": "Vanguard Total Stock Market ETF",
       "action": "Watch",
-      "reason": "Apertura al alza respaldada por retail earnings sólidos y SPX en $7,369 (+0.21% vs. cierre). Para inversión a largo plazo, el rango actual (~$360–362) representa nivel de acumulación gradual coherente con el ciclo. No entrar de una sola vez: escalonar compras y monitorear el tono de las minutas FOMC esta tarde antes de incrementar posición.",
-      "role": "Núcleo equity broad market / acumulación a largo plazo"
+      "reason": "NVDA beat y alivio en petróleo sostienen al SPX intraday. VTI a $364.19 es el núcleo equity de largo plazo de cualquier portafolio diversificado. En este contexto: mantener posición existente sin ampliar materialmente hasta que el FOMC del 16-jun (Warsh) aclare el sendero de tasas. No es jornada de acumulación agresiva, sí de monitoreo activo.",
+      "role": "Núcleo equity diversificado EE.UU. largo plazo"
     }
   ]
 };
